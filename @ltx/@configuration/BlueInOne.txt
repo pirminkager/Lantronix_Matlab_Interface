@@ -1,0 +1,7 @@
+name BlueInOne
+command get_sensor_ids &i
+command get_humidity &v
+command get_result &e
+command perform_1_pt_calibration &k
+command get_sensor_info &s
+terminator CR

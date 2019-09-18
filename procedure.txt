@@ -1,0 +1,15 @@
+Create TCP Client with tcpip
+t = tcpip('128.131.133.28','10010')
+set terminator
+t.Terminator = CR or LF or CR/LF or LF/CR (Carriage Return, Line Feed... See ascii table)
+
+open tcpip connection
+fopen(t)
+
+print message as character string
+fprintf(t,'&e')
+t.fprintf('&e')
+
+read available bytes
+fscanf(t)
+
